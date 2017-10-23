@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+message Structure1 {
+  string field1 = 1;
+  google.protobuf.Any field2 = 2;  
+  string field3 = 3;
+}
+
+message Structure2 {
+  string field1 = 1;
+  string field2 = 2;
+  google.protobuf.Any field3 = 3;  
+}
